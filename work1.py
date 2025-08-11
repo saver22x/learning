@@ -1,7 +1,7 @@
 import random
 
 player_hp = 100
-boss_hp = 200
+boss_hp = 150
 
 print('You are in a boss fight!')
 print(f'Your HP is {player_hp}, Boss HP is {boss_hp}')
@@ -46,4 +46,5 @@ while player_hp > 0 and boss_hp > 0:
     if boss_hp <= 0:
         print('You have defeated the boss!')
         print('Congratulations! You win!')
+
         break
